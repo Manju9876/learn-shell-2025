@@ -12,5 +12,5 @@ echo today the date ${date}
 maths=$((2+4-1))
 echo solution $maths
 
-
-
+# speacial variable to call
+echo script name $0source
