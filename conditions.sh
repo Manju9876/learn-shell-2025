@@ -1,6 +1,14 @@
 fruit_name=mango
 quantity=100
 
+
+#input missing to check the input
+
+if [ -z "$name" ]
+then
+  echo input is missing
+fi
+
 if [ $fruit_name = "mango" ]
 then
   echo the quantity is $quantity
@@ -27,9 +35,3 @@ else
   echo $name is a youngest person
 fi
 
-#input missing to check the input
-
-if [ -z "$name" ]
-then
-  echo input is missing
-fi
