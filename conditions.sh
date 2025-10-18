@@ -26,3 +26,10 @@ then
 else
   echo $name is a youngest person
 fi
+
+#input missing to check the input
+
+if [ -z "$name" ]
+then
+  echo input is missing
+fi
