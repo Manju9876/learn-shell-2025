@@ -11,9 +11,9 @@ fi
 name=$1
 age=$2
 
-if [ $name = "Manju" ]
+if [ "$name" = "Manju" ]
 then
-  echo his age is $age
+  echo his age is $age and $name is a good boy
 else
-  echo who is manju
+  echo name does not exsist
 fi
