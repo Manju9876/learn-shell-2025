@@ -13,7 +13,7 @@ age=$2
 
 if [ name = "Manju"]
 then
-  echo he is a super hero
+  echo his age is $age
 else
   echo who is manju
 fi
