@@ -17,3 +17,5 @@ func(){
 }
 
 func 123 xyz
+
+#funtion have its own exit status  from 0-255 same like exit command
