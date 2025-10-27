@@ -30,3 +30,6 @@ echo "realpath = $(realpath $0)"
 echo "dirname = $(dirname $(realpath $0))"
 echo user name=${app_user}
 exit
+
+
+#
